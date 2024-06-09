@@ -28,6 +28,12 @@ VarDeclarationNode *parseAssign(Parser *self)
 {
     eatToken(self->lexer, VAR);
     Lexem *varName = eatToken(self->lexer, ID);
+
+    if (self->lexer->currentLexem->type == STATEMEND_END)
+    {
+        return varDeclarationNodeCreate((char *)varName->value, NULL);
+    }
+
     eatToken(self->lexer, OPERATOR);
     Node *expr = parsePlusMinus(self);
 
