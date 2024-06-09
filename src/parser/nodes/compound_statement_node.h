@@ -26,9 +26,7 @@ CompoundNode *compoundNodeCreate()
 void compoundNodeAddStatement(CompoundNode *compoundNode, StatementNode *node)
 {
     compoundNode->count += 1;
-
     compoundNode->statements = (StatementNode **)realloc(compoundNode->statements, sizeof(StatementNode *) * (compoundNode->count));
-
     compoundNode->statements[compoundNode->count - 1] = node;
 }
 
