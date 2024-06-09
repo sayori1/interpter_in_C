@@ -16,6 +16,7 @@ CMakeFiles/mari.dir/src/main.c.obj
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/statement_node.h
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/symbol_node.h
  C:/Users/admin/Documents/Projects/C/mari/src/parser/parser.h
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/parser_utils.h
  C:/SDK/mingw/include/_mingw.h
  C:/SDK/mingw/include/ctype.h
  C:/SDK/mingw/include/msvcrtver.h

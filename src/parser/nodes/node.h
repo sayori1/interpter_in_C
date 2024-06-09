@@ -2,7 +2,8 @@
 #ifndef NODE_H
 #define NODE_H
 
-typedef enum {
+typedef enum
+{
     NUMBER,
     BINOP,
     VAR_LITERAL,
@@ -11,9 +12,9 @@ typedef enum {
     ASSIGN
 } NodeType;
 
-typedef struct{
+typedef struct
+{
     NodeType type;
 } Node;
-
 
 #endif // !NODE_H

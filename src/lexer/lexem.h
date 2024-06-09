@@ -4,7 +4,8 @@
 
 #include <stdlib.h>
 
-typedef enum {
+typedef enum
+{
     NUM,
     STR,
     OPERATOR,
@@ -19,45 +20,50 @@ typedef enum {
     END
 } LexemType;
 
-typedef struct {
+typedef struct
+{
     LexemType type;
-    void* value;
+    void *value;
 } Lexem;
 
-Lexem* lexemCreate(LexemType type, void* value){
-    Lexem* lexem = malloc(sizeof(Lexem));
+Lexem *lexemCreate(LexemType type, void *value)
+{
+    Lexem *lexem = malloc(sizeof(Lexem));
     lexem->type = type;
     lexem->value = value;
     return lexem;
 }
 
-char* lexemToString(Lexem* self){
-    if(self->type == NUM)
+char *lexemToString(Lexem *self)
+{
+    if (self->type == NUM)
         return charsFormat("Lexem(type: %d, value: %d)", self->type, self->value);
-    else if(self->type == STR)
+    else if (self->type == STR)
         return charsFormat("Lexem(type: %d, value: %s)", self->type, self->value);
-    else if(self->type == OPERATOR)
+    else if (self->type == OPERATOR)
         return charsFormat("Lexem(type: %d, value: %c)", self->type, self->value);
-    else if(self->type == COMPOUND_OPERATOR)
+    else if (self->type == COMPOUND_OPERATOR)
         return charsFormat("Lexem(type: %d, value: %s)", self->type, self->value);
-    else if(self->type == PARB)
+    else if (self->type == PARB)
         return "Lexem(PARENTHESES BEGIN)";
-    else if(self->type == PARE)
+    else if (self->type == PARE)
         return "Lexem(PARENTHESES END)";
-    else if(self->type == COMB)
+    else if (self->type == COMB)
         return "Lexem(Compound BEGIN)";
-    else if(self->type == COME)
+    else if (self->type == COME)
         return "Lexem(Compound END)";
-    else if(self->type == END)
+    else if (self->type == END)
         return "Lexem(END)";
-    else if(self->type == VAR)
+    else if (self->type == VAR)
         return charsFormat("Lexem(VAR type: %d, value: %s)", self->type, self->value);
-    else if(self->type == ID)
+    else if (self->type == ID)
         return charsFormat("Lexem(ID type: %d, value: %s)", self->type, self->value);
-    else if(self->type == STATEMEND_END){
-        return "Lexem(STATEMENT END)";}
+    else if (self->type == STATEMEND_END)
+    {
+        return "Lexem(STATEMENT END)";
+    }
     else
         return "Lexem(UNKNOWN)";
 }
 
-#endif //UNTITLED5_LEXEM_H
+#endif // UNTITLED5_LEXEM_H

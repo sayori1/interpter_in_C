@@ -4,14 +4,16 @@
 #ifndef SYMBOL_NODE
 #define SYMBOL_NODE
 
-typedef struct{
+typedef struct
+{
     Node base;
 
-    char* name;
+    char *name;
 } SymbolNode;
 
-SymbolNode* symbolNodeCreate(char* name){
-    SymbolNode* symbolNode = (SymbolNode*)malloc(sizeof(SymbolNode));
+SymbolNode *symbolNodeCreate(char *name)
+{
+    SymbolNode *symbolNode = (SymbolNode *)malloc(sizeof(SymbolNode));
     symbolNode->base.type = VAR_LITERAL;
     symbolNode->name = name;
 
