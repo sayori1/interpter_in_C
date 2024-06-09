@@ -12,11 +12,11 @@ typedef struct
 
     char *name;
     Node *expr;
-} AssignNode;
+} VarDeclarationNode;
 
-AssignNode *assignNodeCreate(char *name, Node *expr)
+VarDeclarationNode *varDeclarationNodeCreate(char *name, Node *expr)
 {
-    AssignNode *assignNode = (AssignNode *)malloc(sizeof(AssignNode));
+    VarDeclarationNode *assignNode = (VarDeclarationNode *)malloc(sizeof(VarDeclarationNode));
     assignNode->base.type = ASSIGN;
     assignNode->name = name;
     assignNode->expr = expr;
@@ -24,14 +24,14 @@ AssignNode *assignNodeCreate(char *name, Node *expr)
     return assignNode;
 }
 
-AssignNode *parseAssign(Parser *self)
+VarDeclarationNode *parseAssign(Parser *self)
 {
     eatToken(self->lexer, VAR);
     Lexem *varName = eatToken(self->lexer, ID);
     eatToken(self->lexer, OPERATOR);
     Node *expr = parsePlusMinus(self);
 
-    return assignNodeCreate((char *)varName->value, expr);
+    return varDeclarationNodeCreate((char *)varName->value, expr);
 }
 
 #endif // !ASSIGNMENT_NODE_H

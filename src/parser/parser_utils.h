@@ -30,8 +30,8 @@ char *nodeToString(Node *node)
         return charsFormat("StatementNode(child: %s)", nodeToString(((StatementNode *)node)->child));
     case ASSIGN:
     {
-        AssignNode *assignNode = (AssignNode *)node;
-        return charsFormat("AssignNode(name: %s, expr: %s)", assignNode->name, nodeToString(assignNode->expr));
+        VarDeclarationNode *assignNode = (VarDeclarationNode *)node;
+        return charsFormat("VarDeclarationNode(name: %s, expr: %s)", assignNode->name, nodeToString(assignNode->expr));
     }
     case VAR_LITERAL:
         return charsFormat("SymbolNode(name: %s)", ((SymbolNode *)node)->name);

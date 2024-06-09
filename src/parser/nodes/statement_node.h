@@ -1,7 +1,7 @@
 #include "node.h"
 #include <stdlib.h>
 #include <parser/parser.h>
-#include "assingment_node.h"
+#include "var_declaration_node.h"
 
 #ifndef STATEMENT_NODE
 #define STATEMENT_NODE
