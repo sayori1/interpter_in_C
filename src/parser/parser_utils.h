@@ -4,7 +4,7 @@
 #include "nodes/node.h"
 #include <core/char_utils.h>
 #include "nodes/num_node.h"
-#include "nodes/binop_node.h"
+#include "nodes/expression_node.h"
 #include "nodes/compound_statement_node.h"
 #include "nodes/symbol_node.h"
 
@@ -15,7 +15,7 @@ char *nodeToString(Node *node)
     case NUMBER:
         return charsFormat("NumNode(value: %d)", ((NumNode *)node)->value);
     case BINOP:
-        return charsFormat("BinOpNode(left: %s, right: %s, op: %s)", nodeToString(((BinOpNode *)node)->left), nodeToString(((BinOpNode *)node)->right), lexemToString(((BinOpNode *)node)->op));
+        return charsFormat("expressionNode(left: %s, right: %s, op: %s)", nodeToString(((ExpressionNode *)node)->left), nodeToString(((ExpressionNode *)node)->right), lexemToString(((ExpressionNode *)node)->op));
     case COMPOUND:
     {
         CompoundNode *compoundNode = (CompoundNode *)node;

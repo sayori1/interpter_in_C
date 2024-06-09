@@ -1,7 +1,7 @@
 #include "node.h"
 #include <stdlib.h>
 #include "parser/parser.h"
-#include "binop_node.h"
+#include "expression_node.h"
 
 #ifndef ASSIGNMENT_NODE_H
 #define ASSIGNMENT_NODE_H

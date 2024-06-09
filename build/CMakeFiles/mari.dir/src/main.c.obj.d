@@ -19,7 +19,7 @@ CMakeFiles/mari.dir/src/main.c.obj: \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/node.h \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/num_node.h \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/node.h \
- C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/binop_node.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/expression_node.h \
  C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexem.h \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/parser.h \
  C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexer.h \
@@ -27,5 +27,5 @@ CMakeFiles/mari.dir/src/main.c.obj: \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/compound_statement_node.h \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/statement_node.h \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/assingment_node.h \
- C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/binop_node.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/expression_node.h \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/symbol_node.h

@@ -17,11 +17,11 @@ typedef struct
     Node *left;
     Node *right;
     Lexem *op;
-} BinOpNode;
+} ExpressionNode;
 
-BinOpNode *binOpNodeCreate(Node *left, Node *right, Lexem *op)
+ExpressionNode *expressionNodeCreate(Node *left, Node *right, Lexem *op)
 {
-    BinOpNode *self = (BinOpNode *)malloc(sizeof(BinOpNode));
+    ExpressionNode *self = (ExpressionNode *)malloc(sizeof(ExpressionNode));
 
     self->base.type = BINOP;
     self->left = left;
@@ -66,11 +66,11 @@ Node *parseMulDiv(Parser *self)
 
         if (op == '*')
         {
-            left = (Node *)binOpNodeCreate(left, right, lexem);
+            left = (Node *)expressionNodeCreate(left, right, lexem);
         }
         else if (op == '/')
         {
-            left = (Node *)binOpNodeCreate(left, right, lexem);
+            left = (Node *)expressionNodeCreate(left, right, lexem);
         }
 
         lexem = self->lexer->currentLexem;
@@ -92,11 +92,11 @@ Node *parsePlusMinus(Parser *self)
 
         if (op == '+')
         {
-            left = (Node *)binOpNodeCreate(left, right, lexem);
+            left = (Node *)expressionNodeCreate(left, right, lexem);
         }
         else if (op == '-')
         {
-            left = (Node *)binOpNodeCreate(left, right, lexem);
+            left = (Node *)expressionNodeCreate(left, right, lexem);
         }
 
         lexem = self->lexer->currentLexem;

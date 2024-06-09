@@ -5,9 +5,11 @@
         "string.h": "c",
         "parser.h": "c",
         "node.h": "c",
-        "binop_node.h": "c",
+        "expression_node.h": "c",
         "map.h": "c",
         "compound_statement_node.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "statement_node.h": "c",
+        "assingment_node.h": "c"
     }
 }

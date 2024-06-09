@@ -24,7 +24,7 @@
       <change beforePath="$PROJECT_DIR$/src/lexer/lexer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/lexer/lexer.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parser/nodes/assingment_node.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/nodes/assingment_node.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/nodes/binop_node.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/nodes/binop_node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/nodes/expression_node.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/nodes/expression_node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parser/nodes/compound_statement_node.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/nodes/compound_statement_node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parser/nodes/statement_node.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/nodes/statement_node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parser/parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/parser.h" afterDir="false" />
