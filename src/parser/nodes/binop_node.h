@@ -49,7 +49,7 @@ Node *parseLiteral(Parser *self)
         eatToken(self->lexer, ID);
         return (Node *)symbolNodeCreate((char *)lexem->value);
     default:
-        return NULL; // Handle error appropriately in production code
+        return NULL;
     }
 }
 
