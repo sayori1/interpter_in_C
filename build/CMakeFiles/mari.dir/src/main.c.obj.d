@@ -16,8 +16,12 @@ CMakeFiles/mari.dir/src/main.c.obj: \
  C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexem.h \
  c:\sdk\mingw\include\ctype.h c:\sdk\mingw\include\wctype.h \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/parser.h \
- C:/Users/admin/Documents/Projects/C/mari/src/parser/node.h \
- C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexem.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/node.h \
  C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexer.h \
- C:/Users/admin/Documents/Projects/C/mari/src/interpreter/interpreter.h \
- C:/Users/admin/Documents/Projects/C/mari/src/core/map.h
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/num_node.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/node.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/binop_node.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexem.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/compound_statement_node.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/statement_node.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/symbol_node.h

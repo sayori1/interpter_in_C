@@ -4,6 +4,8 @@
         "lexem.h": "c",
         "string.h": "c",
         "parser.h": "c",
-        "node.h": "c"
+        "node.h": "c",
+        "binop_node.h": "c",
+        "map.h": "c"
     }
 }

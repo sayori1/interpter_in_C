@@ -5,10 +5,14 @@ CMakeFiles/mari.dir/src/main.c.obj: C:/Users/admin/Documents/Projects/C/mari/src
   C:/Users/admin/Documents/Projects/C/mari/src/core/array.h \
   C:/Users/admin/Documents/Projects/C/mari/src/core/char_utils.h \
   C:/Users/admin/Documents/Projects/C/mari/src/core/map.h \
-  C:/Users/admin/Documents/Projects/C/mari/src/interpreter/interpreter.h \
   C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexem.h \
   C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexer.h \
-  C:/Users/admin/Documents/Projects/C/mari/src/parser/node.h \
+  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/binop_node.h \
+  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/compound_statement_node.h \
+  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/node.h \
+  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/num_node.h \
+  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/statement_node.h \
+  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/symbol_node.h \
   C:/Users/admin/Documents/Projects/C/mari/src/parser/parser.h \
   C:/SDK/mingw/include/_mingw.h \
   C:/SDK/mingw/include/ctype.h \
@@ -38,13 +42,21 @@ C:/Users/admin/Documents/Projects/C/mari/src/main.c:
 
 C:/Users/admin/Documents/Projects/C/mari/src/core/array.h:
 
-C:/Users/admin/Documents/Projects/C/mari/src/interpreter/interpreter.h:
-
-C:/Users/admin/Documents/Projects/C/mari/src/parser/node.h:
+C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/compound_statement_node.h:
 
 C:/Users/admin/Documents/Projects/C/mari/src/core/map.h:
 
 C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexer.h:
+
+C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/binop_node.h:
+
+C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/node.h:
+
+C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/num_node.h:
+
+C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/statement_node.h:
+
+C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/symbol_node.h:
 
 C:/SDK/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h:
 
