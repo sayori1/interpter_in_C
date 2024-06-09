@@ -24,4 +24,5 @@ CMakeFiles/mari.dir/src/main.c.obj: \
  C:/Users/admin/Documents/Projects/C/mari/src/lexer/lexem.h \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/compound_statement_node.h \
  C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/statement_node.h \
- C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/symbol_node.h
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/symbol_node.h \
+ C:/Users/admin/Documents/Projects/C/mari/src/parser/nodes/assingment_node.h
