@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/admin/Documents/Projects/C/mari/build",
+  "command": "C:/SDK/mingw/bin/gcc.exe  @CMakeFiles/mari.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles/mari.dir/src/main.c.obj -c C:/Users/admin/Documents/Projects/C/mari/src/main.c",
+  "file": "C:/Users/admin/Documents/Projects/C/mari/src/main.c",
+  "output": "CMakeFiles/mari.dir/src/main.c.obj"
+}
+]

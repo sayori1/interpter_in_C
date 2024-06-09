@@ -1,0 +1,3 @@
+C:/Users/admin/Documents/Projects/C/mari/build/CMakeFiles/mari.dir
+C:/Users/admin/Documents/Projects/C/mari/build/CMakeFiles/edit_cache.dir
+C:/Users/admin/Documents/Projects/C/mari/build/CMakeFiles/rebuild_cache.dir
